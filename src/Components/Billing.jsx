@@ -22,16 +22,16 @@ const Billing = () => (
         Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean
         neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
       </p>
-      <div className="flex flex-row mt-6 flex-wrap sm:mt-10">
+      <div className="flex flex-row  flex-wrap sm:mt-10 p-2 m-42px]  ">
         <img
           src={apple}
           alt="apple store"
-          className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer"
+          className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer feature-card p-0"
         />
         <img
           src={google}
           alt="google play store"
-          className="w-[128px] h-[42px] object-contain cursor-pointer"
+          className="w-[128px] h-[42px] object-contain cursor-pointer feature-card  rounded-[20px] flex-row "
         />
       </div>
     </div>
